@@ -1,0 +1,139 @@
+/*Фоновый цвет шапки*/
+.intro {
+    background-color: #ff8300;
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  html {
+    display: table;
+    margin: auto;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
+  /*Раздел Образования*/
+  
+  . {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
+  .prof {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  
+  .contactinfo {
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #ff8300;
+  }
+  
+  .heading {
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  
+  .sub {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #800080;
+  }
+  
+  .subheading1 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #800080;
+  }
+  
+  .subheading2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #800080;
+    margin-top: 2%;
+  }
+  
+  data {
+    font-size: 16px;
+    color: #2f5a78;
+    font-weight: bold;
+  }
+  
+  .subheading3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #00ff00;
+  }
+  
+  /*обрисовка иконок*/
+  
+  .block {
+    float: left; /* обтекание */
+    line-height: 60px; /* Высота строки и центровка по вертикали  */
+    width: 180px; /* ширина блока */
+    text-align: center; /* текст по центру */
+    font-size: 22px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ff8300;
+  }
+  
+  .card {
+    width: 50px;
+    height: 50px;
+    border: 1px solid none;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(253, 253, 253, 0.205);
+    margin: 15px;
+    display: flex;
+    justify-content: center; /*размещение иконки внутри рамки горизонтале*/
+    align-items: center; /*размещение иконки внутри рамки по вертикали*/
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.336);
+    position: relative;
+    transition: box-shadow 0.4s, color 0.8s, transform 0.4s;
+  }
+  .card:hover {
+    color: #ffffff;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
+      inset 0 20px 10px rgba(255, 255, 255, 0.287),
+      inset 10px 0 20px rgb(255, 58, 58), inset -20px 0 20px rgb(104, 255, 58),
+      inset -30px 0 20px rgb(71, 58, 255);
+    transform: translateY(-10px);
+  }
+  
