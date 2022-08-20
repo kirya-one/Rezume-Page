@@ -1,3 +1,3 @@
 ## Резюме
-- Страница резюме  [Посмотреть](https://github.com/kirya-one/Rezume-Page.git)
+- Страница резюме  [Посмотреть](https://kirya-one.github.io/Rezume-Page/)
 - Используется html и css
