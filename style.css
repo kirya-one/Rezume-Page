@@ -90,7 +90,7 @@
   .block {
     float: left; /* обтекание */
     line-height: 60px; /* Высота строки и центровка по вертикали  */
-    width: 105px; /* ширина блока */
+    width: 100px; /* ширина блока */
     text-align: center; /* текст по центру */
     font-size: 22px;
     margin-top: 5px;
