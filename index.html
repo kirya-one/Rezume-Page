@@ -171,46 +171,64 @@
 <title>Form Example</title>
 <style>
   form {
-    position: absolute;
-    top: 1050px;
-    width: 600px;
-    max-width: 415px;
-    margin: 0 auto;
-    padding: 1em;
-    background-color: #FFD700;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-  }
+    position: relative; /* Изменено с absolute на relative для лучшего позиционирования */
+    width: 100%; /* Устанавливаем ширину в 100% */
+    max-width: 600px; /* Максимальная ширина формы */
+    margin: 20px auto; /* Центрирование формы */
+    padding: 2em; /* Увеличенные отступы */
+    background-color: #f9f9f9; /* Светлый фон */
+    border: 1px solid #ccc; /* Цвет границы */
+    border-radius: 10px; /* Скругление углов */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+    transition: all 0.3s ease; /* Плавный переход при наведении */
+}
 
-  form label {
-    display: block;
-    margin-bottom: 0.5em;
-  }
+form:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Увеличение тени при наведении */
+}
 
-  input,
-  textarea {
-    width: 100%;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-  }
+form label {
+    font-weight: bold; /* Жирный шрифт для меток */
+    margin-bottom: 0.5em; /* Отступ снизу */
+    color: #333; /* Темный цвет текста */
+}
 
-  textarea {
-    resize: vertical;
-  }
+input,
+textarea {
+    width: 100%; /* Ширина 100% */
+    padding: 0.75em; /* Увеличенные отступы внутри полей */
+    border: 1px solid #ddd; /* Цвет границы */
+    border-radius: 5px; /* Скругление углов */
+    margin-bottom: 1.5em; /* Отступ снизу для полей */
+    font-size: 1em; /* Размер шрифта */
+    transition: border-color 0.3s; /* Плавный переход цвета границы */
+}
 
-  button {
-    padding: 0.5em 1em;
-    cursor: pointer;
-    border: none;
-    background-color: #333;
-    color: #fff;
-    border-radius: 5px;
-    transition: background-color 0.2s ease;
-  }
+input:focus,
+textarea:focus {
+    border-color: #ff8300; /* Цвет границы при фокусе */
+    outline: none; /* Убираем стандартное обрамление */
+}
 
-  button:hover {
-    background-color: #444;
-  }
+textarea {
+    resize: vertical; /* Позволяем изменять размер только по вертикали */
+}
+
+button {
+    padding: 0.75em 1.5em; /* Увеличенные отступы внутри кнопки */
+    cursor: pointer; /* Указатель при наведении */
+    border: none; /* Без границы */
+    background-color: #ff8300; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border-radius: 5px; /* Скругление углов кнопки */
+    font-size: 1em; /* Размер шрифта кнопки */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Плавный переход цвета и эффекта при наведении */
+}
+
+button:hover {
+    background-color: #e07b00; /* Цвет кнопки при наведении */
+    transform: translateY(-2px); /* Небольшой подъем кнопки при наведении */
+}
 </style>
 
 
