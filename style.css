@@ -57,7 +57,7 @@
   .sub {
     font-size: 20px;
     font-weight: bolder;
-    color: #ff8300;
+    color: #7FFF00;
   }
   
   .subheading1 {
@@ -108,7 +108,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #7FFF00;
+    background: #ff8300;
   }
   
   .card {
